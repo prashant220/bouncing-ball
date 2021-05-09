@@ -3,7 +3,7 @@
 window.onload = createDiv();
 
 function createDiv() {
-  for (i = 1; i < 5; i++) {
+  for (i = 0; i < 5; i++) {
     var divs = document.createElement("div");
     divs.setAttribute("id", "div_id" + i);
     divs.style =
