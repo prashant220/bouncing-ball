@@ -28,10 +28,17 @@
     top: 200px;
 }   */
  
+
+
+#main-div{
+    display: flex;
+}
+
 .container {
     margin: 40px;
     position: relative;
     border: 2px solid black;
     height: 505px;
     width: 505px; 
+    background-color: #43C8B7;
 }
